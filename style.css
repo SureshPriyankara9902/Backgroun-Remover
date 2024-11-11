@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #ffffff8f;
+    background: linear-gradient(to right, #0d0154, #5a3563, #4cc2cf, #043e25, #012625);
     color: #333;
     line-height: 1.5;
 }
@@ -56,7 +56,7 @@ body {
 
 /* Hero Section */
 .intro {
-    background: #6c5ce7;
+    background: linear-gradient(to right, #c4a406, #0f5465, #085962, #34022a, #000000);
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -78,7 +78,7 @@ body {
 
 /* Example Images Section */
 .style1 {
-    background: white;
+    background: rgba(255, 255, 255, 0.39);
     padding: 30px;
     border-radius: 12px;
     margin-bottom: 40px;
@@ -123,7 +123,7 @@ body {
 
 /* Upload and Generate Section */
 .style2 {
-    background: white;
+    background: rgba(255, 255, 255, 0.01);
     padding: 30px;
     border-radius: 12px;
     max-width: 500px;
@@ -167,8 +167,9 @@ body {
 }
 
 .inner-upload-image span {
-    color: #6c5ce7;
+    color: #000000;
     font-size: 14px;
+    font-weight: bold;
 }
 
 /* Result Section */
@@ -216,7 +217,7 @@ button {
 }
 
 #upload-btn, #download {
-    background: #22c55e;
+    background: #004118;
     color: white;
 }
 
@@ -235,7 +236,7 @@ button {
 
 /* How It Works Section */
 #how-it-works {
-    background: white;
+    background: rgba(255, 255, 255, 0.277);
     padding: 40px;
     border-radius: 12px;
     margin: 40px 0;
@@ -268,7 +269,7 @@ button {
 
 /* Contact Form */
 #contact-us {
-    background: white;
+    background: rgba(255, 255, 255, 0.501);
     padding: 40px;
     border-radius: 12px;
     margin: 40px 0;
@@ -322,7 +323,7 @@ form button:hover {
 .footer {
     text-align: center;
     padding: 20px;
-    color: #666;
+    color: #f4f4f4;
     border-top: 1px solid #eee;
 }
 
