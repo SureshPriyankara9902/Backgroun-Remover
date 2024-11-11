@@ -2,11 +2,10 @@
 
 This is a web application that allows users to remove backgrounds from images easily. It provides an intuitive interface where users can upload images and either preview or download them with the background removed.
 
-![image](https://github.com/user-attachments/assets/7a277253-a914-4bda-b60c-5860854ccfd8)
+![Screenshot (504)](https://github.com/user-attachments/assets/ab49f46b-7516-45ec-92dc-a75d60429bca)
+![Screenshot (505)](https://github.com/user-attachments/assets/bab1ea19-846e-4922-897c-6430ca3a2354)
+![Screenshot (506)](https://github.com/user-attachments/assets/9f3d7a51-e3b5-44a7-8640-02edb4e86d7d)
 
-![image](https://github.com/user-attachments/assets/61da4118-5130-489c-8605-0a0d1c80ad6b)
-
-![image](https://github.com/user-attachments/assets/bbe71013-ac79-40f1-b86c-48087c7dcdb7)
 
 
 ## Features
