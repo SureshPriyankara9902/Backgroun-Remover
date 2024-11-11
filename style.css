@@ -1,0 +1,403 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff8f;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: rgb(11, 11, 11);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #e4e1e1;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e5e0e0;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #6c5ce7;
+}
+
+/* Hero Section */
+.intro {
+    background: #6c5ce7;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Main Content Styles */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Example Images Section */
+.style1 {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.image1, .image2 {
+    flex: 1;
+    max-width: 500px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: rgb(202, 0, 0); /* Initial RGB color */
+    margin-top: 20px;
+    animation: colorChange 5s infinite; /* Animation name and duration */
+}
+
+@keyframes colorChange {
+    0% { color: rgb(202, 0, 0); }       /* Red */
+    25% { color: rgb(0, 102, 204); }    /* Blue */
+    50% { color: rgb(34, 139, 34); }    /* Green */
+    75% { color: rgb(255, 165, 0); }    /* Orange */
+    100% { color: rgb(202, 0, 0); }     /* Back to Red */
+}
+
+
+/* Upload and Generate Section */
+.style2 {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    animation: backgroundColorChange 8s infinite; /* Animation name and duration */
+}
+
+
+.upload-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.inner-upload-image {
+    background-color: var(--bg-white);
+    border: 2px dashed var(--primary);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-height: auto;
+    display: flex;
+    width:auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+    position: relative;  /* Default position */
+}
+
+
+
+#icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.inner-upload-image span {
+    color: #6c5ce7;
+    font-size: 14px;
+}
+
+/* Result Section */
+.result {
+    margin-top: 30px;
+    display: none;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.resultImg1, .resultImg2 {
+    width: 100%;
+    max-width: auto;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.resultImg1 img, .resultImg2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Button Styles */
+.btns {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#upload-btn, #download {
+    background: #22c55e;
+    color: white;
+}
+
+#upload-btn:hover, #download:hover {
+    background: #16a34a;
+}
+
+#reset {
+    background: #ef4444;
+    color: white;
+}
+
+#reset:hover {
+    background: #dc2626;
+}
+
+/* How It Works Section */
+#how-it-works {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 40px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+#how-it-works h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#how-it-works ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#how-it-works li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#how-it-works li::before {
+    content: "•";
+    color: #6c5ce7;
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+}
+
+/* Contact Form */
+#contact-us {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 40px 0;
+    box-shadow:  2px 10px rgba(0,0,0,0.05);
+}
+
+#contact-us h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form input:focus, 
+form textarea:focus {
+    outline: none;
+    border-color: #6c5ce7;
+}
+
+form button {
+    background: #6c5ce7;
+    color: white;
+    width: 100%;
+}
+
+form button:hover {
+    background: #5046e5;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    border-top: 1px solid #eee;
+}
+
+/* Loading and Error States */
+#loading {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+#error-message {
+    color: #ef4444;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    .image {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image1, .image2 {
+        max-width: 100%;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #how-it-works,
+    #contact-us {
+        padding: 20px;
+    }
+
+    .style1,
+    .style2 {
+        padding: 20px;
+        margin: 15px;
+    }
+}
+
+/* Additional Utility Classes */
+.hidden {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
