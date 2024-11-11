@@ -29,10 +29,10 @@ This is a web application that allows users to remove backgrounds from images ea
 To run this project locally on your machine, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/PrasangiW/Background_Remover_HTML-CSS-JS.git
+   git clone https://github.com/SureshPriyankara9902/Backgroun-Remover.git
  
 2. Navigate to the project folder:
-   cd Background_Remover_HTML-CSS-JS
+   cd Background_Remover
 
 3. Open the `index.html` file in your browser.
 
@@ -45,9 +45,7 @@ To run this project locally on your machine, follow these steps:
 3. **Preview**: You can preview the image with the background removed.
 4. **Download**: If you are satisfied with the result, click the "Download" button to save the image to your computer.
 
-## Contributing
 
-Contributions to this project are welcome! If you'd like to improve the app or fix bugs, feel free to fork the repository and create a pull request.
 
 
 
